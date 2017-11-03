@@ -21,7 +21,7 @@ public class ListRandom {
 		return hashmap.get(getRandom(hashmap.keySet()));
 	}
 
-	private static Object getRandom(Set<Object> keySet) {
+	public static Object getRandom(Set<Object> keySet) {
 		return getRandom(keySet.toArray());
 	}
 	
