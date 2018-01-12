@@ -13,6 +13,7 @@ import com.readcollin0.apcs.aptest.APQuestionRunner;
 import com.readcollin0.apcs.digits.DigitsRunner;
 import com.readcollin0.apcs.gui.temperature.TempConvertRunner;
 import com.readcollin0.apcs.gui.tictactoe.TicTacToeRunner;
+import com.readcollin0.apcs.war.War;
 import com.readcollin0.apcs.yahtzee.Yahtzee;
 import com.readcollin0.apcs.zoo.JavaZoo;
 
@@ -30,7 +31,8 @@ public class Runner {
 		DigitsRunner.class,
 		TempConvertRunner.class,
 		APQuestionRunner.class,
-		TicTacToeRunner.class
+		TicTacToeRunner.class,
+		War.class
 	};
 	
 	private static HashMap<String, RunnerApp> options = new HashMap<String, RunnerApp>();
