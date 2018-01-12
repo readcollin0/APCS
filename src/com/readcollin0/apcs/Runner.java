@@ -9,6 +9,10 @@ import org.collegeboard.magpie.MagpieRunner4;
 import org.collegeboard.magpie.MagpieRunner5;
 import org.collegeboard.magpie.StringExplorer;
 
+import com.readcollin0.apcs.aptest.APQuestionRunner;
+import com.readcollin0.apcs.digits.DigitsRunner;
+import com.readcollin0.apcs.gui.temperature.TempConvertRunner;
+import com.readcollin0.apcs.gui.tictactoe.TicTacToeRunner;
 import com.readcollin0.apcs.yahtzee.Yahtzee;
 import com.readcollin0.apcs.zoo.JavaZoo;
 
@@ -22,7 +26,11 @@ public class Runner {
 		MagpieRunner3.class,
 		MagpieRunner4.class,
 		MagpieRunner5.class,
-		StringExplorer.class
+		StringExplorer.class,
+		DigitsRunner.class,
+		TempConvertRunner.class,
+		APQuestionRunner.class,
+		TicTacToeRunner.class
 	};
 	
 	private static HashMap<String, RunnerApp> options = new HashMap<String, RunnerApp>();
